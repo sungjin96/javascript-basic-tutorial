@@ -22,3 +22,6 @@ console.log(age);
 
 const newDog = {...dog, gender: "남"}
 console.log(newDog)
+
+delete newDog.gender
+console.log(newDog)
